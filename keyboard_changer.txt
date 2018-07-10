@@ -1,0 +1,12 @@
+REM Created by Cody Bernardy
+REM Changes keyboard layout to Japanese
+REM Author holds no liability for use
+
+DEFAULT_DELAY
+GUI
+STRING Powershell
+ENTER
+STRING Set-WinUserLanguageList -LanguageList ja-JP
+ENTER
+STRING exit
+ENTER
